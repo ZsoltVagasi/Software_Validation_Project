@@ -4,6 +4,7 @@ from relations_manager import RelationsManager
 
 
 class EmployeeManager:
+
     yearly_bonus = 100
     leader_bonus_per_member = 200
 
@@ -31,6 +32,7 @@ class EmployeeManager:
 
 
 if __name__ == '__main__':
+
     rm = RelationsManager()
     print(f"All team members: {rm.get_all_employees()}")
 
