@@ -1,5 +1,4 @@
 import relations_manager
-import employee
 import datetime
 
 def test_if_john_doe_is_leader_and_check_birtdate_PASS() -> bool:
