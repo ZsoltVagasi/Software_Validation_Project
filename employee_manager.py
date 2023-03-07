@@ -16,7 +16,7 @@ class EmployeeManager:
 
         years_at_company = datetime.date.today().year - employee.hire_date.year
 
-        salary += years_at_company * EmployeeManager.yearly_bonus
+        salary += years_at_company * EmployeeManager.yearly_bonus 
 
         if self.relations_manager.is_leader(employee):
             team_members_count = len(self.relations_manager.get_team_members(employee))
